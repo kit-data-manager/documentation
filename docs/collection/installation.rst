@@ -1,3 +1,5 @@
+.. _collection-installation:
+
 +++++++++++++++
 2. Installation
 +++++++++++++++
