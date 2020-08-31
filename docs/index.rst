@@ -35,7 +35,7 @@ amounts and volumes of data.
 .. toctree::
    :caption: Collection API
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 3
 
    collection/intro
    collection/installation
@@ -51,5 +51,3 @@ amounts and volumes of data.
     illustration of the service architecture.
 :doc:`collection/quickstart`
     Steps towards realizing an example use case.
-    
-.. note:: This documentation is not complete, yet. Build it.
