@@ -18,9 +18,8 @@ is available under http://{hostname}:{port}/static/overview.html. In addition, a
 3.2 Data Model
 **************
 
-++++++++++++++++++++++
-3.2.1 Service Features
-++++++++++++++++++++++
+**3.2.1 Service Features**
+
 The table below includes the different service-level features this implementation offers.
 
 +--------------------------------------+
@@ -38,9 +37,8 @@ The table below includes the different service-level features this implementatio
 | | supportedModelTypes: null          |
 +--------------------------------------+
 
-+++++++++++++++++++++++
-3.2.2 Collection Object
-+++++++++++++++++++++++
+**3.2.2 Collection Object**
+
 The service offers the possibility to create and manage collections and collection items. The figure below includes a data model of a collection, collection item and the relationship between them.
 
 .. figure:: images/collectionDataModel.png
