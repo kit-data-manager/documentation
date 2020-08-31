@@ -1,3 +1,5 @@
+.. _collection-implementation:
+
 ++++++++++++++++++++++++++++++++
 3. Collection API Implementation
 ++++++++++++++++++++++++++++++++
