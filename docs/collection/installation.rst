@@ -1,5 +1,5 @@
 ++++++++++++++++++++++++++++++++
-3. Installation
+2. Installation
 ++++++++++++++++++++++++++++++++
 
 Prerequisites:
