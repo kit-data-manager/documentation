@@ -15,8 +15,13 @@ allows to use only components required by a particular use case. This reduced co
 and offers a high level of flexibility for current and future challenges in the field of 
 research data management.
 
-Collection API
-==============
+============================
+Collection API (Version 1.0)
+============================
+
+***************************************
+Authors: Sabrine Chelbi, Thomas Jejkal
+***************************************
 
 The Collection API is proposed by the RDA Recommendation on Research Data
 Collections doi: `10.15497/RDA00022`_. It can be used for building collections of digital
@@ -34,6 +39,7 @@ amounts and volumes of data.
 
    collection/intro
    collection/installation
+   collection/implementation
    collection/quickstart
 
 
@@ -41,6 +47,8 @@ amounts and volumes of data.
     A short overview of the Collection API.
 :doc:`collection/installation`
     Installation instructions.
+:doc:`collection/implementation`
+    illustration of the service architecture.
 :doc:`collection/quickstart`
     Steps towards realizing an example use case.
     
