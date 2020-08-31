@@ -1,3 +1,5 @@
+.. _collection-quickstart:
+
 +++++++++++++++++++++++++++++++++++++++++++
 4. How can the Collection API be used? 
 +++++++++++++++++++++++++++++++++++++++++++
