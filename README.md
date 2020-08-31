@@ -1,27 +1,12 @@
 ![Read the Docs](https://img.shields.io/readthedocs/kit-dm-documentation)
 
-The KIT Data Manager Repository Platform
+The KIT Data Manager Repository Platform - Documentation
 ========
 
-KIT Data Manager is a Research Data Repository Platform consequently following state-of-the-art recommendations and standards for managing research data in a FAIR way.  
+KIT Data Manager is a Research Data Repository Platform consequently following state-of-the-art recommendations and standards for managing research data in a FAIR way.
+This project contains all documentation for the platform including installation instructions and usage examples. The documentation is created and hosted using https://readthedocs.org/ 
 
-Features
---------
-
-- Be awesome
-- Make things faster
-
-Contribute
-----------
-
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: webmaster@datamanager.kit.edu
+The most recent version of the documentation is available at https://kit-dm-documentation.readthedocs.io/en/latest/
 
 License
 -------
