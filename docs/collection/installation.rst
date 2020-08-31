@@ -1,5 +1,5 @@
 ============
-Installation
+2. Installation
 ============
 
 Prerequisites:
