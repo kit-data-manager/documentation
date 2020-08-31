@@ -4,7 +4,12 @@
 2. Installation
 +++++++++++++++
 
-Prerequisites:
+For running the collection-api service you may either startup a docker container or you build and run the service from source. 
+The source code is available at https://github.com/kit-data-manager/collection-api
+For more information about compiling and starting from source, please refer to the README located in the source repository. 
+In the following, running the collection-api service using docker is explained.
+
+**Prerequisites:**
 
 * docker (tested with 19.03.8).
 
