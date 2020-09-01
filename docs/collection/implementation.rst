@@ -53,7 +53,7 @@ The service offers the possibility to create and manage collections and collecti
 
 .. list-table::
     :name: collection-table
-    :widths: 25 25 25 25
+    :widths: 10 20 20 20
     :header-rows: 0
 
     * - Property Name
@@ -78,9 +78,6 @@ The service offers the possibility to create and manage collections and collecti
       - – 
 
 1. Collection capabilities: comprise the following attributes, which determine the possible actions on a collection.
-
-.. table:: collection capabilities
-    :widths: 10 20 20 20
     
    +---------------------+------------------------------+---------------------+---------------+
    | Property Name       | Description                  | Mandatory/Optional  | Default Value |
