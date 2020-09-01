@@ -51,20 +51,21 @@ The service offers the possibility to create and manage collections and collecti
 
 - Collection: includes the following attributes:
 
-+----------------------+------------------------------+---------------------+---------------+
-| Property Name        | Description                  | Mandatory/Optional  | Default Value |
-+======================+==============================+=====================+===============+
-| id                   | identifier for the collection| optional            | UUID          |
-+----------------------+------------------------------+---------------------+---------------+
-| description          | descriptive metadata about   | optional            | null          |
-|                      | the collection               |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| Collection           | define the set of actions    | optional            | –             |
-| capabilities         | supported by a collection    |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| Collection           | functional metadata of a     | optional            | –             |
-| properties           | collection                   |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
++---------------+------------------------------+-----------+---------------+
+| Property Name | Description                  | Mandatory | Default Value |
+|               |                              | /Optional |               |
++===============+==============================+===========+===============+
+| id            | identifier for the collection| optional  | UUID          |
++---------------+------------------------------+-----------+---------------+
+| description   | descriptive metadata about   | optional  | null          |
+|               | the collection               |           |               |
++---------------+------------------------------+-----------+---------------+
+| Collection    | define the set of actions    | optional  | –             |
+| capabilities  | supported by a collection    |           |               |
++---------------+------------------------------+-----------+---------------+
+| Collection    | functional metadata of a     | optional  | –             |
+| properties    | collection                   |           |               |
++---------------+------------------------------+-----------+---------------+
 
 1. Collection capabilities: comprise the following attributes, which determine the possible actions on a collection.
 
