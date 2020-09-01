@@ -53,7 +53,7 @@ The service offers the possibility to create and manage collections and collecti
 
 .. list-table::
     :name: collection-table
-    :widths: 10 20 20 20
+    :widths: 10 20 10 10
 
     * - Property Name
       - Description
