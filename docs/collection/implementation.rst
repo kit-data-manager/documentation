@@ -54,7 +54,6 @@ The service offers the possibility to create and manage collections and collecti
 .. list-table::
     :name: collection-table
     :widths: 10 20 20 20
-    :header-rows: 0
 
     * - Property Name
       - Description
