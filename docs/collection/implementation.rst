@@ -51,21 +51,31 @@ The service offers the possibility to create and manage collections and collecti
 
 - Collection: includes the following attributes:
 
-+---------------+------------------------------+-----------+---------------+
-| Property Name | Description                  | Mandatory | Default Value |
-|               |                              | /Optional |               |
-+===============+==============================+===========+===============+
-| id            | identifier for the collection| optional  | UUID          |
-+---------------+------------------------------+-----------+---------------+
-| description   | descriptive metadata about   | optional  | null          |
-|               | the collection               |           |               |
-+---------------+------------------------------+-----------+---------------+
-| Collection    | define the set of actions    | optional  | –             |
-| capabilities  | supported by a collection    |           |               |
-+---------------+------------------------------+-----------+---------------+
-| Collection    | functional metadata of a     | optional  | –             |
-| properties    | collection                   |           |               |
-+---------------+------------------------------+-----------+---------------+
+.. list-table::
+    :name: collection-table
+    :widths: 50 50 50
+    :header-rows: 0
+
+    * - Property Name
+      - Description
+      - Mandatory/ Optional
+      - Default Value
+    * - id
+      - identifier for the collection
+      - optional
+      - UUID
+    * - description
+      - descriptive metadata about the collection
+      - optional
+      - null
+    * - Collection capabilities
+      - define the set of actions supported by a collection
+      - optional
+      - – 
+    * - Collection properties
+      - functional metadata of a collection
+      - optional
+      - – 
 
 1. Collection capabilities: comprise the following attributes, which determine the possible actions on a collection.
 
