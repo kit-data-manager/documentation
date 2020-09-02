@@ -51,13 +51,25 @@ The service offers the possibility to create and manage collections and collecti
 
 - Collection: includes the following attributes:
 
-.. table:: collection table
-    :widths: 10 20 10 10
+.. table:: 
+    :widths: 10 10 10 10
     
-    +---------------+-----------------+-----------------------+--------------+
-    |Property Name  |Description      |Mandatory/ Optional    |Default Value |
-    +---------------+-----------------+-----------------------+--------------+
-
+    +---------------+---------------------+--------------------+--------------+
+    |Property Name  |Description          |Mandatory/ Optional |Default Value |
+    +===============+=====================+====================+==============+
+    | id            | identifier for the  | optional           | UUID         | 
+    |               | collection          |                    |              |
+    +---------------+---------------------+--------------------+--------------+
+    | description   | descriptive metadata| optional           | null         |
+    |               | about the collection|                    |              |
+    +---------------+---------------------+--------------------+--------------+
+    | Collection    | define the set of   | optional           | –            |
+    | capabilities  | actions supported   |                    |              |
+    |               | by a collection     |                    |              |
+    +---------------+---------------------+--------------------+--------------+
+    | Collection    | functional metadata | optional           | –            |
+    | properties    | of a collection     |                    |              |
+    +---------------+---------------------+--------------------+--------------+
 
 1. Collection capabilities: comprise the following attributes, which determine the possible actions on a collection.
     
