@@ -51,7 +51,7 @@ The service offers the possibility to create and manage collections and collecti
 
 - Collection: includes the following attributes:
 
-.. table:: 
+.. table:: collection table
     :widths: 10 10 10 10
     
     +---------------+---------------------+--------------------+--------------+
