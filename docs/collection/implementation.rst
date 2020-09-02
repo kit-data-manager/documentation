@@ -67,48 +67,11 @@ The service offers the possibility to create and manage collections and collecti
 
 - Collection Item: In order to create a new collection item, the following attributes are expected to be given by the user:
 
-+----------------------+---------------------------------+---------------------+---------------+
-| Property Name        | Description                     | Mandatory/Optional  | Default Value |
-+======================+=================================+=====================+===============+
-| id                   | identifier for the member       | optional            | UUID          | 
-+----------------------+---------------------------------+---------------------+---------------+
-| location             | location at which the item      | mandatory           | –             |
-|                      | data can be retrieved           |                     |               |
-+----------------------+---------------------------------+---------------------+---------------+
-| description          | human readable description      | optional            | null          |
-+----------------------+---------------------------------+---------------------+---------------+
-| datatype             | URI of the data type of this    | mandatory           | –             |
-|                      | item. If the value of the       |                     |               |
-|                      | “restrictedToType” of the       |                     |               |
-|                      | collection is not null, then    |                     |               |
-|                      | the datatype of the member      |                     |               |
-|                      | should have the same value as   |                     |               |
-|                      | the “restrictedToType”          |                     |               |
-+----------------------+---------------------------------+---------------------+---------------+
-| ontology             | URI of an ontology model        | optional            | null          |
-|                      | class that applies to this      |                     |               |
-|                      | item                            |                     |               |
-+----------------------+---------------------------------+---------------------+---------------+
-| mappings             | Collection item metadata        | optional            | true          |
-+----------------------+---------------------------------+---------------------+---------------+
+.. figure:: images/collectitonItemTable.png
+   :align: center
 
 1. Mappings: include the following attributes:
 
-+----------------------+------------------------------+---------------------+---------------+
-| Property Name        | Description                  | Mandatory/Optional  | Default Value |
-+======================+==============================+=====================+===============+
-| role                 | the role of this item inside | optional            | null          |
-|                      | the collection               |                     |               |  
-+----------------------+------------------------------+---------------------+---------------+
-| index                | the position of the item in  | optional            | 0             |
-|                      | the collection               |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| dateAdded            | the date the item was added  | (*)                 | –             |
-|                      | to the collection            |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| dateUpdated          | URI of the data type of this | (*)                 | –             |
-|                      | the date the item’s metadata |                     |               |
-|                      | were last updated            |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
+.. figure:: images/mappingsTable.png
+   :align: center
 
-(*) This value is automatically generated.
