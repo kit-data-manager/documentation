@@ -51,15 +51,9 @@ The service offers the possibility to create and manage collections and collecti
 
 - Collection: includes the following attributes:
     
-    ============= ================== =================== =============
-    Property Name Description        Mandatory/ Optional Default Value
-    ------------- ------------------ ------------------- -------------
-    id            identifier for the optional            UUID         
-                  collection                                     
-    description   descriptive        optional            null
-                  metadata about the
-                  collection
-    ============= ================== =================== =============
+.. figure:: images/collectionTable.png
+   :align: center
+   
 
 1. Collection capabilities: comprise the following attributes, which determine the possible actions on a collection.
     
