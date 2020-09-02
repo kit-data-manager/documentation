@@ -62,37 +62,8 @@ The service offers the possibility to create and manage collections and collecti
 
 2. Collection properties: include collection’s metadata.
 
-+----------------------+------------------------------+---------------------+---------------+
-| Property Name        | Description                  | Mandatory/Optional  | Default Value |
-+======================+==============================+=====================+===============+
-| id                   | identifier of the collection | (*)                 | –             | 
-|                      | properties                   |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| dateCreated          | the date the collection was  | (*)                 | –             |
-|                      | created                      |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| ownership            | identifies the owner of the  | optional            | null          |
-|                      | collection                   |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| license              | identifies the license that  | optional            | null          |
-|                      | applies to the collection    |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| modelType            | identifies the model that    | optional            | null          |
-|                      | the collection adheres to    |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| hasAccessRestrictions| indicates whether the        | optional            | true          |
-|                      | collection has access        |                     |               |
-|                      | restrictions                 |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| memberOf             | includes a list of collection| (*)                 | –             |
-|                      | identifiers to which this    |                     |               |
-|                      | collection belongs           |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| descriptionOntology  | identifies the ontology used | optional            | null          |
-|                      | for descriptive metadata     |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-
-(*) This value is automatically generated. 
+.. figure:: images/collecionPropertiesTable.png
+   :align: center
 
 - Collection Item: In order to create a new collection item, the following attributes are expected to be given by the user:
 
