@@ -62,7 +62,7 @@ The service offers the possibility to create and manage collections and collecti
 
 2. Collection properties: include collection’s metadata.
 
-.. figure:: images/collecionPropertiesTable.png
+.. figure:: images/collectionPropertiesTable.png
    :align: center
 
 - Collection Item: In order to create a new collection item, the following attributes are expected to be given by the user:
