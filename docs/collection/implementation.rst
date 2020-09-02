@@ -57,39 +57,8 @@ The service offers the possibility to create and manage collections and collecti
 
 1. Collection capabilities: comprise the following attributes, which determine the possible actions on a collection.
     
-   +---------------------+------------------------------+---------------------+---------------+
-   | Property Name       | Description                  | Mandatory/Optional  | Default Value |
-   +=====================+==============================+=====================+===============+
-   | id                  | identifier of the collection | (*)                 | –             | 
-   |                     | capabilities                 |                     |               |
-   +---------------------+------------------------------+---------------------+---------------+
-   | isOrdered           | identifies if the collection | optional            | false         |
-   |                     | items are ordered            |                     |               |
-   +---------------------+------------------------------+---------------------+---------------+
-   | appendsToEnd        | For an ordered collection,   | optional            | false         |
-   |                     | it indicates whether new     |                     |               |
-   |                     | items are appended to the end|                     |               |
-   +---------------------+------------------------------+---------------------+---------------+
-   | supportsRoles       | identifies whether a         | optional            | false         |
-   |                     | collection supports assigning|                     |               |
-   |                     | roles to its member items    |                     |               |
-   +---------------------+------------------------------+---------------------+---------------+
-   | membershipIsMutable | identifies whether a         | optional            | true          |
-   |                     | collection membership is     |                     |               |
-   |                     | mutable                      |                     |               |
-   +---------------------+------------------------------+---------------------+---------------+
-   | propertiesAreMutable| identifies whether a         | optional            | true          |
-   |                     | collection properties are    |                     |               |
-   |                     | mutable                      |                     |               |
-   +---------------------+------------------------------+---------------------+---------------+
-   | restrictedToType    | indicates the type of the    | optional            | null          |
-   |                     | collection items             |                     |               |
-   +---------------------+------------------------------+---------------------+---------------+
-   | maxLength           | indicates the maximum length | optional            | -1            |
-   |                     | of the collection            |                     |               |
-   +---------------------+------------------------------+---------------------+---------------+
-
-(*) This value is automatically generated. 
+.. figure:: images/collecionCapabilitiesTable.png
+   :align: center
 
 2. Collection properties: include collection’s metadata.
 
