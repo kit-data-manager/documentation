@@ -20,13 +20,13 @@ In the next sections, we will describe how to build up the above example using t
 ****************************
 Using the POST operation http://localhost:8070/api/v1/collections, we have the possibility to create collections one by one or all together. As an input, a JSON object including the collection attributes is needed. In the above described example, six collections should be created. Figure 5 below includes an example of creating the “experiment” collection and the response of this operation is represented in Figure 6. The non-given attributes are filled out with the default values. Moreover, the created date is automatically generated. As the experiment collection is not an item of another collection and has no items yet, the value of both attributes “memberOf” and “members” is an empty list. The five remaining collections “rawData”, “implementation”, “results”, “result1” and “result2” can be created in the same way.
 
-.. figure:: images/experimentCollectionCreation.png
+.. figure:: images/experimentCollectionCre.png
    :width: 700
    :alt: Creation of the experiment collection
    
    Figure 5: Creation of the experiment collection
 
-.. figure:: images/experimentCollectionResponse.png
+.. figure:: images/experimentCollectionRes.png
    :width: 700
    :alt: Response of the POST experiment collection
    
@@ -37,7 +37,7 @@ Using the POST operation http://localhost:8070/api/v1/collections, we have the p
 ********************************
 In order to add the relationship between “experiment” collection and other collections, we should add the sub-collections as items to the parent collection using the following POST operation: http:// localhost:8070/api/v1/collections/{collection_identifier}/members. To run this operation, “id”, “location” and “datatype” are mandatory fields. Figure 7 includes an example of the JSON object needed while adding “rawData” collection to the “experiment” collection.
 
-.. figure:: images/addRawDataSubcollection.png
+.. figure:: images/addRawDataSubcol.png
    :width: 700
    :alt: Add „rawData“ as a sub-collection
    
@@ -45,7 +45,7 @@ In order to add the relationship between “experiment” collection and other c
 
 After executing this operation, “rawData” collection is added to the member list of the “experiment” collection as shown in Figure 8, which includes a response of the GET collection operation.
 
-.. figure:: images/getExperimentCollection.png
+.. figure:: images/getExperimentCol.png
    :width: 700
    :alt: Get „experiment“ collection
    
@@ -59,7 +59,7 @@ The remaining collections can be added the same way as sub-collections to the �
 
 In order to create a new member and add it to a collection, the same POST operation mentioned in 4.3 should be performed: http://localhost:8070/api/v1/collections/{collection_identifier}/members. Figure 9 includes an example of adding item “images” to collection “rawData”.
 
-.. figure:: images/createImagesItem.png
+.. figure:: images/createImagesIt.png
    :width: 700
    :alt: Creation of „images“ item
    
