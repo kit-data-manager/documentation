@@ -72,6 +72,6 @@ The service offers the possibility to create and manage collections and collecti
 
 1. Mappings: include the following attributes:
 
-.. figure:: images/mappingsTable.png
+.. figure:: images/mappingTable.png
    :align: center
 
