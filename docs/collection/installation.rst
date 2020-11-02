@@ -28,4 +28,4 @@ In the following, running the collection-api service using docker is explained.
   [...]
   Status: Downloaded newer image for kitdm/collection-api:latest
   
-As soon as the microservice is started, you can browse to http://localhost:8070/swagger-ui.html in order to use the available REST APIs.
+As soon as the microservice is started, you can browse to http://localhost:8080/swagger-ui.html in order to use the available REST APIs.
