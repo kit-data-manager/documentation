@@ -1,3 +1,6 @@
+## The content of this repository has moved to [https://github.com/kit-data-manager/webpage/tree/gh-pages](https://github.com/kit-data-manager/webpage/tree/gh-pages) won't be maintained any longer
+
+
 ![Read the Docs](https://img.shields.io/readthedocs/kit-dm-documentation)
 
 The KIT Data Manager Repository Platform - Documentation
